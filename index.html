@@ -10,12 +10,12 @@
     <title>Rocio & Alan</title>
 </head>
 <body >
-    <section class="inicio">
+    <section class="inicio section">
 
-        <div class="backgroundImg1"></div>
-        <div class="backgroundImg2"></div>
-        <div class="backgroundImg3"></div>
-        <div class="backgroundImg4"></div>
+        <div class="backgroundImg1 bck"></div>
+        <div class="backgroundImg2 bck"></div>
+        <div class="backgroundImg3 bck"></div>
+        <div class="backgroundImg4 bck"></div>
 
         <div class="fraseInicial">
             <h2>Nos elegimos para toda la vida </h2>
@@ -25,23 +25,35 @@
         <h3 class="nuestraBoda">NUESTRA BODA</h3>
     </section>
 
-    <section class="fechaBoda">
+    <section class="fechaBoda section">
+
+        <div class="backgroundImg5 bck"></div>
+        <div class="backgroundImg6 bck"></div>
+
         <div class="fecha">
-            <p>Fecha: 20 de diciembre de 2023</p>
-            <p>11:30 - 20:30</p>
+            <h3 class="dia"> SAB. 15 NOV 2025</h3>
+            <h3 class="horario">11:30 - 20:30Hs</h3>
         </div>  
-        <div>
-            <!--boton con link para agendar en calendario -->
-        </div>
+
+         <button class="btnAgendar" onclick="agendarEvento()">Agendar en calendario</button>
+        
         <div class="cuentaRegresiva">
             <!--cuenta regresiva -->
         </div>
-        <div class="frasFinalSegundaPagina">
-            <h3></h3>
+        <div class="fraseCuentaRegresiva">
+            <h3>Falta cada vez menos....<br>¡Contamos los dias con vos !</h3>
         </div>
+
+        <div class="fraseFinalSegundaPagina">
+            <h3>Ceremonia y <br>Fiesta al aire libre</h3>
+            <p>El Estribo Eventos | Manzanares, pilar</p>
+        </div>
+       <button class="btnUbicacion" onclick="https://www.google.com.ar/maps/place/El+estribo+eventos/@-34.4527206,-59.0429866,614m/data=!3m1!1e3!4m6!3m5!1s0x95bc81000fca53a3:0xc4a8f4d23d42de52!8m2!3d-34.4520657!4d-59.0388893!16s%2Fg%2F11m71x61x9?hl=es&entry=ttu&g_ep=EgoyMDI1MDczMC4wIKXMDSoASAFQAw%3D%3D">Ver Ubicación</button>
+
     </section>
 
 
 
 </body>
+<script src="./js/agendarEvento.js"></script>
 </html>

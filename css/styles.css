@@ -7,16 +7,13 @@ body, html {
   background-color: #F8F5F0;
 }
 
-.inicio {
+.section {
   position: relative;
   height: 100vh;
-  overflow: hidden;
+  overflow: visible;
 }
 
-.backgroundImg1,
-.backgroundImg2,
-.backgroundImg3,
-.backgroundImg4 {
+.bck{
   position: absolute;
   width: 65%;
   height: 65%;
@@ -28,13 +25,13 @@ body, html {
 
 
 .backgroundImg1 {
-  top: 0;
+  top: -2%;
   left: 0;
   background-image: url("../assets/img/1.png");
 }
 
 .backgroundImg2 {
-  top: 0;
+  top: -2%;
   right: 0;
   background-image: url("../assets/img/2.png");
 }
@@ -90,10 +87,166 @@ body, html {
     position: absolute;
     transform: translateX(-20%);
     left: 50%;
-    right: 50%;
     width: 100%;
     height:100%;
     background-image: url("../assets/img/flechita.png");
     background-size: contain;
     background-repeat: no-repeat;
+    align-items: center;
   }
+
+.section {
+  position: relative;
+  height: 100vh;
+  overflow: visible;
+}
+
+.backgroundImg5 {
+  top: 50%;
+  left: 0%;
+  height: 90%;
+  width: 90%;
+  background-image: url("../assets/img/5.png");
+}
+
+.backgroundImg6 {
+  top: 80%;
+  left: 84%;
+  height: 100%;
+  width: 100%;
+  background-image: url("../assets/img/6.png");
+}
+
+
+
+  
+.fecha{
+  position: relative;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  left: 17%;
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style:normal;
+  padding-right: 50%;
+}
+
+.dia {
+  font-weight: 700;
+}
+
+.fecha::after {
+  content: "";
+  position: absolute;
+  top:0%;
+  left: 35%;
+  width: 10%;
+  height:10%;
+  background-image: url("../assets/img/calendar.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.btnAgendar {
+  position: absolute;
+  top: 22%;
+  left: 10%;
+  right: 10%;
+  width: auto;
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 700;
+  font-style:normal;
+  font-size: 100%;
+  color: white;
+  background-color: #c59f60;
+  border: none;
+  border-radius: 15px;;
+  cursor: pointer;
+  height: 7%;
+}
+
+.cuentaregresiva {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.fraseCuentaRegresiva {
+  position: relative;
+  top: -55%;
+  width: 100%;
+  text-align: center;
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 400;
+  font-style:normal;
+  font-size: 110%;
+  
+}
+
+
+
+.fraseFinalSegundaPagina{
+  position: relative;
+  top: -45%;
+ width: 100%;
+  height: 100%;
+  text-align: center;
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 700;
+  font-style:bold;
+}
+
+.fraseFinalSegundaPagina p{
+    font-weight: 400;
+  font-style:normal;
+  font-size: 90%;
+}
+
+.fraseFinalSegundaPagina::before {
+  content: "";
+  position: absolute;
+  top: -15%;
+  left: 25%;
+  width: 50%;
+  height:50%;
+  background-image: url("../assets/img/ceremonia.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+
+.btnUbicacion {
+  position: relative;
+  top: -130%;
+  left: 15%;
+  right: 15%;
+  width: 60%;
+  align-items: center;
+  font-family: "Libre Caslon Text", serif;
+  font-weight: 700;
+  font-style:normal;
+  font-size: 100%;
+  color: white;
+  background-color: #c59f60;
+  border: none;
+  border-radius: 15px;;
+  cursor: pointer;
+  height: 7%;
+}
+
+.btnUbicacion::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left:105%;
+  width: 90%;
+  height:90%;
+  background-image: url("../assets/img/location.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+}
