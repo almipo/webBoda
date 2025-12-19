@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+     <script type="module" src="./js/index.js"></script> 
+    <title>Rocio & Alan</title>
+</head>
+
+
+<body>
+    <section class="inicio section">
+        <div class="bckContainer">
+            <div class="bck backgroundImg1"></div>
+            <div class=" bck backgroundImg2 "></div>
+           <div class=" bck backgroundImg3 "></div>
+            <div class=" bck backgroundImg4 "></div> 
+        </div> 
+        <div class="italic fraseInicial ">
+            <p>Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="nombreNovios"></div>
+        <h3 class="bold nuestraBoda">NUESTRA BODA <a href="#idFechaBoda" class="flecha"></a></h3>
+    </section>
+
+
+    <section class="section fechaBoda " id="idFechaBoda">
+         <div class="bckContainer2">
+            <div class="bck backgroundImg5 "></div>
+            <div class="bck backgroundImg6" id="img6"></div>
+        </div> 
+        <div class="normal fecha">
+            <h3>
+                <span class="bold dia"> SÁB. 15 marzo 2026 </span><br>
+                <span class="normal horario">11:30 - 20:30H</span>
+            </h3>
+        </div>
+
+        <div class="botonCentrado">
+            <button class="btn btnAgendar normal" onclick="agendarEvento()">Agendar en calendario</button>
+        </div>
+
+        <div id="normal contador" class="bold contador">
+            <div class="tiempo">
+                <span id="dias">0 </span>
+
+                <small class="normal">Días</small>
+            </div>
+            <div class="tiempo">
+                <span id="horas"></span>
+
+                <small class="normal">Hs</small>
+            </div>
+            <div class="tiempo">
+                <span id="minutos">0 </span>
+
+                <small class="normal">Min</small>
+            </div>
+            <div class="tiempo">
+                <span id="segundos">0</span>
+                <small class="normal">Seg</small>
+            </div>
+        </div>
+        <hr class=" lineaDivision lineaDivisora">
+
+
+        <p class="normal fraseCuentaRegresiva">Lorem ipsum dolor sit.....<br>¡Lorem ipsum dolor sit.!</p>
+
+        <div class="fraseFinalSegundaPagina">
+            <h3 class="bold fraseCeremonia">Lorem, ipsum. <br>Lorem ipsum dolor sit.</h3>
+            <p class="normal">lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="botonCentrado ubicacion">
+            <button class="normal btn btnUbicacion" id="btnUbicacion">Ver ubicación</button>
+        </div>
+
+    </section>
+
+
+
+    <section class="section video ">
+        <div class="videoWrapper video-off ">
+            <iframe src="lorem ipsum dolor sit amet" title="lorem ipsum dolor sit amet"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <p class="fraseVideo normal">Con este video, llegás seguro.</p>
+        <hr class="lineaDivision lineaDivisoraVideo">
+
+    </section>
+
+    <section class="dresscode section">
+        <div class="imagenDressCode">
+        </div>
+        <h4 class="bold">DRESSCODE</h4>
+        <p class="normal dresscodePN">lorem ipsum</p>
+        <p class="italic dresscodePI">lorem ipsum</p>
+    </section>
+
+    <section id="idRegalos" class="regalos section">
+         <div class="bck backgroundImg7" id="idImgRegalos">
+        </div> 
+        <div  id="idSectionRegalos" class=" regalosContainer">
+
+            <div class="imagenRegalo"></div>
+            <h3 class="bold regaloHB">¿Querés hacernos un regalo?</h3>
+            <p class="normal regaloPN">lorem ipsum</p>
+                <p class="italic  regaloPI">Lorem ipsum dolor sit amet consectetur.<br>Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <button class="normal btn btnDatos" id="idBtnDatos">Datos Bancarios</button>
+        </div>
+
+    </section>
+
+
+    <div id="modalBanco" class="modal" style="display: none;">
+        <div class="modal-content">
+            <div class="imagenModal"></div>
+            <div class="imagenModal2"></div>
+            <span id="cerrarModal" class="cerrar">&times;</span>
+
+            <p id="textoBanco1" class="bold"></p>
+            <p id="textoDNI1" class="normal"></p>
+            <p id="textoCBU1" class="normal"></p>
+            <button class="normal btn btnBanco" id="btnCopiarCBU1">Copiar CBU</button>
+            <p id="textoAlias1" class="normal"></p>
+            <button class="normal btn btnBanco" id="btnCopiarAlias1">Copiar Alias</button>
+            <hr class="lineaDivision lineaDivisoraModal">
+
+
+            <p id="textoBanco2" class="bold"></p>
+            <p id="textoDNI2" class="normal"></p>
+            <p id="textoCBU2"></p>
+            <button class="normal btn btnBanco" id="btnCopiarCBU2">Copiar CBU</button>
+            <p id="textoAlias2" class="normal"></p>
+            <button class="normal btn btnBanco" id="btnCopiarAlias2">Copiar Alias</button>
+        </div>
+    </div>
+
+
+
+    <section class="playList section">
+        <div class="imagenPlayList"></div>
+        <h3 class="bold musicHB">¡Ayudanos con la playlist!</h3>
+        <p class="italic musicPI">Lorem, ipsum dolor.<br>Lorem ipsum dolor sit amet consectetur.</p>
+        <button class="normal btn btnPlayList" id="btnSpotify">Lorem, ipsum dolor.</button>
+    </section>
+
+    <section class="fotos section sectionCenter">
+        <div class="imagenFotos">
+        </div>
+        <h3 class="bold fotodHB">lorem ipsum dolor sit amet
+        </h3>
+        <p class="italic fotosPI">Lorem ipsum dolor sit.<br>Lorem ipsum dolor sit.<br>Lorem, ipsum dolor.</p>
+        <button class=" normal btn btnFotos" id="btnFotos">Subir archivos</button>
+    </section>
+
+    <section class="section sectionCenter confirmacion " >
+        <div class="imagenesConfirmacion">
+            <div class="imagenTicket"></div>
+            <div class="imagenConfirmacion"></div>
+        </div>
+        <h3 class="normal confirmacionHN">ENTRADAS</h3>
+        <hr class="lineaDivision lineaDivisoraConfirmacion">
+        <p class="normal confirmacionPN">Tenemos reservado</p>
+        <SPAN id="idCantidadEntradas" class="bold cantidadEntradas "></SPAN>
+        <p class="normal confirmacionPN" id="lugar"></p>
+        <h4 class="bold confirmacionHB">Lorem ipsum dolor sit. </h4>
+        <button class="normal btn btnConfirmacion" id="btnConfirmar" s>CONFIRMAR</button>
+    </section>
+
+    <section class="final section sectionCenter">
+        <p class="bold finalPN">Lorem ipsum dolor sit.<br>Lorem ipsum dolor sit.<br>Lorem, ipsum dolor.</p>
+        <div class="bck backgroundImgFooter"> </div> 
+    </section>
+
+
+     <script type="module" src="./js/firebaseInit.js"></script> 
+    <script src="./js/agendarEvento.js"></script>
+    <script src="./js/contador.js"></script>
+     <script type="module" src="./js/dato.js"></script> 
+     <script type="module" src="./js/config.js"></script> 
+</body>
+
+</html>

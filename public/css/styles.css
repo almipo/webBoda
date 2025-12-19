@@ -1,0 +1,993 @@
+body {
+  height: auto;
+    min-height: 100vh;
+
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  background-color: #f8f5f0;
+  overflow-x: hidden;
+  overflow-y: auto;  
+}
+
+.section {
+ max-width: 100%;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.italic {
+  font-family: "Libre Caslon Text", serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1.2rem 0 0 0;
+  z-index: 10;
+}
+
+.normal {
+  font-family: "Libre Caslon Text", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1.2rem 0 0 0;
+  z-index: 10;
+}
+
+.bold {
+  font-family: "Libre Caslon Text", serif;
+  font-style: bold;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1.2rem 0 0 0;
+  z-index: 10;
+}
+
+
+.btn {
+  position: relative;
+  font-size: 3vh;
+  color: white;
+  background-color: #c59f60;
+  border: none;
+  border-radius: 9px;
+  margin: 2rem 0 0 0;
+  padding: 0.2rem 0.6rem;
+  cursor: pointer;
+  height: auto;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.lineaDivision {
+  position: relative;
+  border: none;
+  height: 0.15rem;
+  background: #c59f60;
+  margin: 2rem 0 0 0;
+}
+
+.bckContainer {
+  position: absolute;
+ width: 100%;
+  min-height: 100svh;
+  margin: 0;
+  z-index: 0;
+ 
+}
+.bck {
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+/*primera seccion*/
+.inicio{
+ 
+  position: relative;
+min-height:95svh;
+}
+
+
+/*bck imagenes 1 2 3 4*/
+
+.backgroundImg1 {
+width: 70%;
+min-height: 50svh;
+margin-top:0 ;
+  top: 0;
+  left: 0;
+  background-image: url("../assets/img/1.webp");
+  background-position: left bottom 19vh ;
+  background-size: 30vh auto;
+}
+
+.backgroundImg2 {
+  width: 30svh;
+min-height: 100svh;
+margin-top: 0;
+  top: 0;
+  right: 0;
+  background-image: url("../assets/img/2.webp");
+  background-position: right top;
+  background-size: auto 50vh;
+}
+.backgroundImg3 {
+  width: 50%;
+  height: 40svh;
+  bottom: -15svh;
+  left: 0;
+  background-image: url("../assets/img/3.webp");
+  background-position: bottom -5vh left;
+  background-size: auto 100%;
+  z-index: 0;
+  
+}
+
+.backgroundImg4 {
+    width: 50%;
+  height: 40svh;
+  bottom: -15svh;
+  right: 0;
+  background-image: url("../assets/img/4.webp");
+  background-position: bottom -7vh right;
+  background-size: auto 100%;
+
+}
+
+
+
+
+
+/*recursos centrales  */
+
+.fraseInicial {
+  position: relative;
+  width: 100vw;
+  font-size: 1rem;
+  text-shadow: 0px 0px 1px #666;
+
+  margin: 15vh 0 0 0;
+}
+
+.nombreNovios {
+  position: relative;
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/img/rocioyalan.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 15vh;
+}
+
+.nuestraBoda {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  width: 100vw;
+  font-size: 1.2rem;
+  margin: 15svh 0 5svh 0;
+}
+
+.flecha {
+  display: block;
+  width: 100vw;
+  height: 3.5rem;
+  background-image: url("../assets/img/flechita.webp");
+  background-size: auto 15vh;
+  background-repeat: no-repeat;
+  align-items: center;
+  cursor: pointer;
+  background-position: center;
+  z-index: 10;
+}
+
+
+
+/*segunda seccion*/
+.fechaBoda {
+  position: relative;
+  width: 100vw;
+  min-height: auto;
+  top:0;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+/*imagenes segunda seccion 5 6*/
+.backgroundImg5 {
+height: 80vh;
+  width: 50vw;
+  margin-top: 38vh;
+  left: 0;
+  background-image: url("../assets/img/5.webp");
+  background-size: auto 100%; 
+  background-position:top  left ;
+  z-index: 0;
+}
+
+.backgroundImg6 {
+ height: 190vh; 
+width: 50vw;
+  position: absolute;
+  margin-top: 60vh;
+top:0;
+right:0;
+  background-image: url("../assets/img/6.png");
+
+   background-size: auto 100%; 
+  background-position: top  right;
+  z-index: 0;
+}
+
+.backgroundImg6.ajustada {
+  
+  height: 150dvh;
+  background-size: auto 100%;
+
+} 
+
+
+
+/*seccion 2 */
+.fecha {
+  position: relative;
+  top: 7vh;
+  width: 100vw;
+  min-height: auto;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.fecha h3 {
+  font-size: 3.2vh;
+  margin:  0 0 0 0;
+  text-align: left;
+  width: auto;
+  height: auto;
+ 
+}
+ .dia{
+  margin-top: 0.5rem ;
+} 
+.horario{
+   padding-top:0.5rem ;
+  font-weight: 400;
+
+
+ }
+
+.fecha::after {
+  content: "";
+  position: relative;
+  width:3.5rem;
+  height: 4rem;
+  top: 0;
+  margin-left:1.5vw ;
+  background-image: url("../assets/img/calendar.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.botonCentrado {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnAgendar {
+  position: relative;
+  margin: 1rem 0 0 0;
+  font-size: 1.3rem;
+}
+.contador {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  margin: 1rem 0 0 0 ;
+}
+
+.tiempo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tiempo span {
+  width: 3ch;
+  text-align: center;
+  display: block;
+  color: black;
+  font-size: 2rem;
+}
+
+.tiempo small {
+  color: black;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 1rem;
+  padding-right: 0.5rem;
+  margin: 0.5rem 0;
+}
+.lineaDivisora {
+  content: "";
+  display: block;
+  height: 0.1rem;
+  width: 80svw;
+  margin: 0.2rem 4rem;
+
+}
+
+.fraseCuentaRegresiva {
+  position: relative;
+  width: 100vw;
+  font-size: 1.4rem;
+  text-shadow: 0px 0px 1px #666;
+margin:0.8rem 0 0 0;
+}
+
+.fraseFinalSegundaPagina {
+  position: relative;
+  width: 100vw;
+  height: auto;
+margin: 0 0 0 0 ;
+display: flex;
+flex-direction: column;
+align-items: center;
+  justify-content: center;
+
+}
+
+.fraseCeremonia {
+  margin: 0.5rem 0 0 0;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 1px #666;
+}
+.fraseFinalSegundaPagina p {
+  margin: 0.5em 0 0 0;
+  font-size: 1.1rem;
+}
+
+.fraseFinalSegundaPagina::before {
+  content: "";
+  position: relative;
+  min-width: 10rem;
+  min-height:7rem;
+  background-image: url("../assets/img/ceremonia.webp");
+margin:0 0 0 0;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  z-index: 10;
+}
+
+.btnUbicacion {
+  position: relative;
+  display: flex;
+ flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-top: 1rem;
+ 
+
+
+}
+
+.ubicacion::after {
+  content: "";
+  display: relative;
+  width: 1.8rem;
+  height: 2.5rem;
+  background-image: url("../assets/img/location.webp");
+  background-size: contain;
+  background-repeat: no-repeat;  
+  margin: 1rem 0 0 0.3rem ;
+}
+
+
+
+/*secdcion 3 como llegar*/
+.video {
+  position: relative;
+  width: 100vw;
+  min-height:30svh;
+  display: flex;
+top: 0;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem 0 0 0;
+  z-index: 10;
+}
+
+.videoWrapper {
+  position: relative;
+  width: 80vw;      
+  max-width: 80rem; 
+  padding-bottom: 56.25%; 
+  height: 0;
+  margin: 0 auto; 
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px; 
+  overflow: hidden; 
+}
+.fraseVideo {
+  margin: 1rem 0 0 0;
+  font-size: 1.2rem;
+  text-shadow: 0px 0px 1px #666;
+}
+
+.lineaDivisoraVideo {
+width: 80dvw;
+margin: 0.5em 0 0 0;
+ 
+}
+
+
+
+/*seccion 3 dresscode */
+.dresscode {
+  position: relative;
+  min-height: 20svh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0 0 0 ;
+}
+
+.imagenDressCode {
+  position: relative;
+  width: 5rem;
+  height: 4rem;
+  background-image: url("../assets/img/dresscode.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.dresscode h4 {
+  position: relative;
+  margin: 0.8rem 0 0 0;
+  font-size: 1.1rem;
+}
+
+.dresscodePN {
+  position: relative;
+  margin: 0.5rem 0 0 0 ;
+  font-size: 1.2rem;
+}
+
+.dresscodePI {
+  position: relative;
+  margin: 0.5rem 0 0 0 ;
+  font-size: 1.1rem;
+
+}
+
+
+/*seccion 4 regalos */
+.regalos {
+  position: relative;
+  min-height: 40svh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.backgroundImg7 {
+  height: 140vh;
+  width: 100vw;
+  margin-top:5vh;
+  top: 0;
+  left: 0;
+  background-image: url("../assets/img/7.webp");
+  background-position: top left;
+  background-size: auto 100%;
+  z-index: 1;
+}
+
+
+.backgroundImg7.ajustada {
+  
+  height: 100dvh;
+  background-size: auto 100%;
+
+
+}
+.regaloContainer{
+  position: relative;
+  width: 100vw;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 0 0;
+
+}
+.imagenRegalo {
+  position: relative;
+  width: 100%;
+  min-height: 13dvh;
+  background-image: url("../assets/img/regalo.webp");
+  background-size: auto 80%;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  margin: 2rem 0 0 0;
+}
+
+.regaloHB {
+  position: relative;
+  margin: 0.8rem 0 0 0;
+  font-size: 1.3rem;
+}
+
+.regaloPN {
+  position: relative;
+  margin: 1.5rem 0 0 0;
+  font-size: 1rem;
+  text-align: center;
+  opacity:0.8;
+}
+
+.regaloPI {
+  position: relative;
+  margin: 1rem 0 0 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.btnDatos {
+  display: block;      
+  margin: 1rem auto;   
+  font-size: 1.5rem;
+  padding: 0.2rem 0.6rem; 
+  min-width: 200px;   
+}
+/*seccion 5 musica*/
+.playList {
+  position: relative;
+  min-height:20svh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.imagenPlayList {
+  position: relative;
+  min-width: 4rem;
+  min-height: 5rem;
+  background-image: url("../assets/img/music.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin-top: 2rem;
+}
+
+.musicHB{
+  margin: 0.8rem 0 0 0;
+}
+
+.musicPI{
+  margin: 0.5rem 0 0 0;
+}
+
+.btnPlayList {
+  margin: 1rem 0 0 0;
+}
+
+
+
+/*seccion 6 musica*/
+.fotos {
+  position: relative;
+  min-height: 20svh;
+}
+
+.imagenFotos {
+  position: relative;
+  min-width: 5rem;
+  min-height: 5rem;
+  background-image: url("../assets/img/fotos.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: 1;
+  margin: 2rem 0 0 0;
+}
+
+
+
+
+.fotosHB{
+margin: 1.2rem 0 0 0;
+}
+
+.fotosPI{
+  margin: 0.5rem 0 0 0;
+  font-size: 1.2rem;
+}
+
+.btnFotos{
+  margin: 1rem 0 0 0;
+}
+
+
+
+
+/*seccion 7 conformacion */
+.confirmacion{
+  position: relative;
+  min-height:40svh ;
+  width: 100vw;
+}
+
+.imagenesConfirmacion{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+justify-content: center;
+  background-size: contain;
+  width: 100vw;
+  height: auto;
+  margin: 2rem 0 0 0;
+  z-index: 1;
+}
+.imagenConfirmacion {
+  position: relative;
+  min-width: 9rem;
+  min-height: 7rem;
+  background-image: url("../assets/img/confirmarLugar.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 1rem 0 0 0;
+  z-index: 1;
+}
+.imagenTicket {
+  position: relative;
+ min-width: 8rem;
+  min-height: 7rem;
+  background-image: url("../assets/img/tickets.webp");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0 0 0 0;
+  z-index: 1;
+}
+
+.confirmacionHN {
+  margin: 0.5rem 0 0 0;
+}
+
+.lineaDivisoraConfirmacion {
+  position: relative;
+  width: 7rem;
+  margin: 0 0 0 0;
+  height: 0.1rem;
+}
+
+.cantidadEntradas {
+  position: relative;
+  width: 3.5rem;
+  height: 2rem;
+  margin: 0.7rem 0 0 0;
+  text-align: center;
+  border-color: #c59f60;
+  border-style: solid;
+  font-size: 1.5rem;
+  border-width:0.1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.confirmacionPN{
+  margin: 0.8rem 0 0 0 ;
+}
+
+.confirmacionHB{
+  margin: 0.5rem 0 0 0 ;
+}
+  .btnConfirmacion {
+  z-index: 10;
+  border-style: solid;
+  /* border-color: #c59f60; */
+  /* background: transparent; */
+  /* color: black; */
+  font-size: 1.6rem;
+  margin: 0.5rem 0 0 0;
+} 
+
+
+/*seccion final*/
+.final {
+  position: relative;
+  width: 100vw;
+ min-height: 15svh;
+
+margin:0 0 0 0;
+}
+
+.finalPN {
+  position: relative;
+  top: 0;
+  font-size:1.3rem ;
+  color: #c59f60;
+  margin: 4rem 0 4rem 0;;
+}
+
+.backgroundImgFooter {
+  position: absolute;
+  overflow: hidden;
+  top:  0;
+  left: 0;
+  width: 100vw;
+  min-height:25svh;
+  background-image: url("../assets/img/footer.webp");
+  background-size:   100% auto;
+ background-position: center top;
+  background-repeat: no-repeat;
+  z-index: 0;
+  margin: 0;
+} 
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal-content {
+  top: 0  ;
+position: fixed;
+
+  background:  #f8f5f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80vw;
+  max-width: 100vh;
+  max-height: 90vh;
+  display: flex;
+  text-align: center;
+justify-content: center;
+flex-direction: column;
+z-index: 200;
+
+}
+
+.lineaDivisoraModal{
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 0.1rem;
+  z-index:210;
+}
+.cerrar {
+  position: relative;  
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+  margin:0 0 0 0 ;
+  font-size: 4rem;
+  cursor: pointer;
+  z-index: 210;
+}
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  opacity: 0.9;
+  z-index: 99999;
+  font-size: 14px;
+}
+
+.modal-content p{
+  margin: 1rem 0 0 0 ;
+  font-size: 1rem;
+  z-index: 999;
+}
+
+
+
+.imagenModal{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-image: url("../assets/img/1.webp");
+  background-size: auto 20em;
+  background-repeat: no-repeat;
+  margin: 0 0 0 0;
+  z-index: 201;
+  opacity: 0.5;
+  
+}
+.imagenModal2{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  right: 0;
+  bottom: 0;
+  background-image: url("../assets/img/1.webp");
+  transform: scale(-1, -1);
+  background-size: auto 20rem;
+  background-repeat: no-repeat;
+  background-position: top left;
+  margin: 0 0 0 0;
+  z-index: 201;
+  opacity: 0.5;
+ 
+}
+
+.btnBanco{
+  position: relative;
+  margin: 0.5rem 3rem 0 3rem ;
+  width: auto;
+  height: auto;
+   z-index: 215; 
+   opacity: 0.9;
+
+}
+
+@media (min-width: 810px) {
+  .backgroundImg1,
+  .backgroundImg2{
+    background-size: auto 40dvh;
+    transform: translateY(-3%);
+  }
+  
+
+
+  .backgroundImg3{
+    background-size: auto 50dvh;
+    background-position: bottom -10vh left;
+    margin-top: 80vh;
+ 
+  }
+  .backgroundImg4 {
+     background-size: auto 70dvh;
+    background-position: bottom -20vh right;
+    margin-top: 80vh;
+ 
+  }
+
+  .fraseInicial {
+    padding-top: 9dvh;
+    font-size: 2vmax;
+  }
+  .nombreNovios {
+    margin-top: 10dvh;
+    height: 35dvh;
+  }
+  .nuestraBoda {
+    margin-top: 9dvh;
+    font-size: 1.2rem;
+  }
+
+
+.backgroundImg5{
+  height: 150dvh;
+
+  background-size: auto 100%;
+}
+  .backgroundImg6 {
+
+   height: 280vh;
+    background-size: auto 100%;
+  }
+
+  .backgroundImg6.ajustada {
+    height: 240vh;
+    background-size: auto 100%;
+  }
+ 
+  .imagenConfirmacion {
+
+  width: 9em;
+  height: 7em;}
+.imagenTicket {
+
+  width: 8em;
+  height: 7em;
+}
+  .backgroundImg7{
+height: 170dvh;
+
+  background-size: auto 100%;
+
+  }
+
+  .backgroundImg7.ajustada{
+    margin-top: 20dvh;
+    height: 120dvh  ;
+  background-size: auto 100%;
+  }
+.lineaDivisora {
+  min-width: 25svw;
+  margin: 0.3em 22em;}
+
+.fraseVideo{
+  margin-top: 2rem;
+}
+  .lineaDivisoraVideo {
+    min-width: 60dvw;
+    height: 0.1em;
+  }
+
+
+  .backgroundImgFooter{
+    height: 75svh;
+      transform: translateY(-35dvh)
+
+  }
+  .videoWrapper {
+  width: 100dvw;
+  aspect-ratio: 16 / 9; 
+  background: #000;
+}
+
+.video-off {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
