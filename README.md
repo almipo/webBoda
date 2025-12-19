@@ -80,15 +80,13 @@ Simplemente abrí el archivo `index.html` en cualquier navegador:
 
 Para adaptar el sitio a otro evento:
 
-* Reemplazar los textos en `index.html`
-* Ajustar colores y tipografías en `styles.css`
-* Cambiar imágenes dentro de `assets/img`
+Reemplazar los textos en index.html
 
----
+Ajustar colores y tipografías en styles.css
 
+Cambiar imágenes dentro de assets/img
 
-
-## 🚀 Estado del proyecto
+🚀 Estado del proyecto
 
 ✔ Funcional
 ✔ Estático
