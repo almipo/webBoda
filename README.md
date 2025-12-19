@@ -22,8 +22,15 @@ Sin frameworks, sin dependencias, sin backend.
 ├── index.html
 ├── css/
 │   └── styles.css
+|   └── styleLogin.css 
 ├── js/
-│   └── main.js
+│   └── mainagendarEvento.js
+|   └── config.js
+|   └── contador.js
+|   └── dato.js
+|   └── firebaseInit.js
+|   └── index.js
+|   └── main.jslogin
 ├── assets/
 │   └── img/
 └── README.md
